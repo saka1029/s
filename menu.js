@@ -15,6 +15,8 @@
 //    console.log("年度=" + 年度 + " 点数表=" + 点数表 + " 種類=" + 
 //        + " 最新版=" + (年度 == 最新年度) + " 前年度=" + PREV[年度]);
     var links = "";
+    links += "<script async src='https://cse.google.com/cse.js?cx=a6474cacc7567404b'></script>"
+        + "<div class='gcse-search'></div><br>";
     links += " <a href='../../index.html' target='_top'>ホーム</a>";
     if (点数表 == "k") {
         links += " <a href='index.html'>告示</a>";
